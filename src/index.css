@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #101014;
+  background-color: #f7f4ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #111114;
+  --ink-soft: #2d2d33;
+  --muted: #6f6a63;
+  --paper: #f6f2eb;
+  --paper-edge: #e5ded2;
+  --accent: #c9b79a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--ink);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
